@@ -101,3 +101,12 @@ sudo ./deluxe-arch-installer.sh
 
 - Map/atlas style wallpapers generated with [maptoposter](https://github.com/originalankur/maptoposter)
 - Map data courtesy of [OpenStreetMap](https://www.openstreetmap.org/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**License Summary:**
+- Wallpapers: MIT License (generated from maptoposter)
+- maptoposter: MIT License
+- OpenStreetMap Data: ODbL (Open Data Commons Open Database License)
