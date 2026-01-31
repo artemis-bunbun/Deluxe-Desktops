@@ -8,6 +8,7 @@ A collection of my favourite wallpapers and fastfetch configs that I use persona
 
 - [Gallery](#gallery)
 - [How to Setup Fastfetch Configs for Beginners](#how-to-setup-fastfetch-configs-for-beginners)
+- [Installer Script](#installer-script)
 - [Credits](#credits)
 
 ## Gallery
@@ -61,6 +62,40 @@ A collection of my favourite wallpapers and fastfetch configs that I use persona
    Then restart your terminal or run `source ~/.bashrc` (or `source ~/.zshrc` for zsh)
 
 For more customization options, check the [fastfetch documentation](https://github.com/LinusDierheimer/fastfetch).
+
+## Installer Script
+
+The `deluxe-arch-installer.sh` script automates the installation of essential packages on Arch Linux. It's designed to get your system set up quickly with all the necessary tools and configurations.
+
+### What It Installs
+
+- **fastfetch** - System information display tool
+- **firefox** - Web browser
+- **visual-studio-code-bin** - Code editor
+- **vesktop** - Discord client
+- **kitty** - Terminal emulator
+- **yay** - AUR helper for managing community packages
+
+### Usage
+
+```bash
+sudo ./deluxe-arch-installer.sh
+```
+
+### Requirements
+
+- **Arch Linux** - This script is Arch Linux specific and will not run on other distributions
+- **Root privileges** - Must be run with `sudo`
+
+### Features
+
+- Detects Arch Linux and validates system compatibility
+- Updates system packages before installation
+- Installs pacman packages (official repositories)
+- Automatically installs and configures yay if not already present
+- Installs AUR packages using yay
+- Provides colored output and progress indicators
+- Error handling and informative messages
 
 ## Credits
 
