@@ -1,0 +1,83 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "modules": [
+    "title",
+    {
+      "type": "separator",
+      "separatorFg": "blue"
+    },
+    {
+      "type": "custom",
+      "format": "{##078D70}Ὦ πᾶσα ἡ ἐμὴ{##26CEAA} οὖσα αὐτοῦ,{##98E8C1} σώματι καὶ ψυχῇ{##FFFFFF}{##7BADE2}{##5049CC}{##3D1A78}",
+      "valueColor": "ignore"
+    },
+    {
+      "type": "os",
+      "keyColor": "green",
+      "valueColor": "green"
+    },
+    {
+      "type": "command",
+      "key": "OS Age",
+      "keyColor": "magenta",
+      "valueColor": "magenta",
+      "text": "echo $(( ( $(date +%s) - $(stat -c %Y /) ) / 86400 )) days"
+    },
+    "uptime",
+    {
+      "type": "cpu",
+      "keyColor": "38;5;196",
+      "valueColor": "38;5;196-38;5;208"
+    },
+    {
+      "type": "cpuUsage",
+      "keyColor": "38;5;208",
+      "barColor": "38;5;196-38;5;220",
+      "barStyle": "modern",
+      "barWidth": 30
+    },
+    {
+      "type": "gpu",
+      "keyColor": "green",
+      "valueColor": "green"
+    },
+    {
+      "type": "nvmlGpuUsage",
+      "key": "GPU Usage",
+      "keyColor": "green"
+    },
+    {
+      "type": "shell",
+      "keyColor": "cyan",
+      "valueColor": "cyan"
+    },
+    {
+      "type": "host",
+      "keyColor": "cyan",
+      "valueColor": "cyan"
+    },
+    "kernel",
+    {
+      "type": "packages",
+      "keyColor": "yellow",
+      "valueColor": "yellow"
+    },
+    "display",
+    "wm",
+    "terminal",
+    {
+      "type": "memory",
+      "barStyle": "modern",
+      "barWidth": 30
+    },
+    "swap",
+    "disk",
+    {
+      "type": "sensors",
+      "key": "Temps",
+      "keyColor": "38;5;208",
+      "valueColor": "38;5;208"
+    },
+    "break"
+  ]
+}
