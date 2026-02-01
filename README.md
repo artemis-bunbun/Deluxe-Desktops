@@ -35,21 +35,37 @@ A collection of my favourite wallpapers and fastfetch configs that I use persona
    sudo zypper install fastfetch
    ```
 
-2. **Copy the config file**
+2. **Install Greek Text Fonts** (required for the config file)
+   The config file uses Ancient Greek text, so you'll need to install Greek fonts for proper terminal display:
+   ```bash
+   # Arch Linux
+   sudo pacman -S noto-fonts-greek
+   
+   # Debian/Ubuntu
+   sudo apt install fonts-noto-greek
+   
+   # Fedora
+   sudo dnf install google-noto-fonts-greek
+   
+   # openSUSE
+   sudo zypper install google-noto-fonts-greek
+   ```
+
+3. **Copy the config file**
    ```bash
    # Create the config directory if it doesn't exist
    mkdir -p ~/.config/fastfetch
    
-   # Copy your desired config from this repo
-   cp fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
+   # Copy the config from this repo
+   cp "fastfetch config file/config.jsonc" ~/.config/fastfetch/config.jsonc
    ```
 
-3. **Run fastfetch**
+4. **Run fastfetch**
    ```bash
    fastfetch
    ```
 
-4. (optional) **Make it run automatically**
+5. (optional) **Make it run automatically**
    If you want fastfetch to display every time you open a terminal, add this line to the end of your shell's config file:
    - For bash: `~/.bashrc`
    - For zsh: `~/.zshrc`
@@ -60,6 +76,19 @@ A collection of my favourite wallpapers and fastfetch configs that I use persona
    ```
    
    Then restart your terminal or run `source ~/.bashrc` (or `source ~/.zshrc` for zsh)
+
+## Config Features
+
+This fastfetch configuration displays:
+- System title and a decorative Ancient Greek text header
+- OS information with age calculation (days since system installation)
+- Uptime, CPU info with usage bar (modern style)
+- GPU information and GPU usage
+- Shell, host, and kernel details
+- Package manager information
+- Display, window manager, and terminal details
+- Memory with modern style bar, swap, and disk information
+- System temperatures
 
 For more customization options, check the [fastfetch documentation](https://github.com/LinusDierheimer/fastfetch).
 
