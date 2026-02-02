@@ -17,7 +17,13 @@ A collection of my favourite wallpapers and fastfetch configs that I use persona
 
 | 1080p | 1440p | 4K |
 |-------|-------|-----|
-| ![1080p](reykjavik_iceland_midnight_blue_1080p.png) | ![1440p](reykjavik_iceland_midnight_blue_1440p.png) | ![4k](reykjavik_iceland_midnight_blue_4k.png) |
+| ![1080p](Wallpapers/Reykjavik%20Iceland/reykjavik_iceland_midnight_blue_1080p.png) | ![1440p](Wallpapers/Reykjavik%20Iceland/reykjavik_iceland_midnight_blue_1440p.png) | ![4k](Wallpapers/Reykjavik%20Iceland/reykjavik_iceland_midnight_blue_4k.png) |
+
+### Laval, France - Forest
+
+| 1080p | 1440p | 4K |
+|-------|-------|-----|
+| ![1080p](Wallpapers/Laval%20France/laval_france_forest_1080p.png) | ![1440p](Wallpapers/Laval%20France/laval_france_forest_1440p.png) | ![4k](Wallpapers/Laval%20France/laval_france_forest_4k.png) |
 ## How to Setup Fastfetch Configs for Beginners
 
 1. **Install fastfetch** (if not already installed)
