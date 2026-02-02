@@ -24,6 +24,13 @@ A collection of my favourite wallpapers and fastfetch configs that I use persona
 | 1080p | 1440p | 4K |
 |-------|-------|-----|
 | ![1080p](Wallpapers/Laval%20France/laval_france_forest_1080p.png) | ![1440p](Wallpapers/Laval%20France/laval_france_forest_1440p.png) | ![4k](Wallpapers/Laval%20France/laval_france_forest_4k.png) |
+
+### Athens, Greece - Noir
+
+| 1080p | 1440p | 4K |
+|-------|-------|-----|
+| ![1080p](Wallpapers/Athens%20Greece/athens_greence_noir_1080p.png) | ![1440p](Wallpapers/Athens%20Greece/athens_greece_noir_1440p.png) | ![4k](Wallpapers/Athens%20Greece/athens_greece_noir_4k.png) |
+
 ## How to Setup Fastfetch Configs for Beginners
 
 1. **Install fastfetch** (if not already installed)
