@@ -1,4 +1,5 @@
 # Deluxe Desktops
+An amalgamation of sleek wallpapers and arch setup scripts 
 
 A collection of my favourite wallpapers and fastfetch configs that I use personally without necessarily using a riced linux distro.
 
