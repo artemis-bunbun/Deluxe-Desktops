@@ -120,7 +120,11 @@ The `deluxe-arch-installer.sh` script automates the installation of essential pa
 - **yay** - AUR helper for managing community packages
 
 ### Usage
-
+1 - Make the installer an executable
+```bash
+chmod a+x deluxe-arch-installer.sh
+```
+2 - Install with sudo or it WILL fail
 ```bash
 sudo ./deluxe-arch-installer.sh
 ```
